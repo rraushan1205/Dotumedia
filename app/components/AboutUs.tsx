@@ -5,7 +5,7 @@ import Stats from "./Stats";
 export default function AboutUs() {
   return (
     <>
-      <div className="mx-[150px] flex gap-10">
+      <div className="mx-[20px] md:mx-[150px] flex gap-10 md:flex-row flex-col">
         <Image src={about} alt="about" className="w-[450px]  " />
         <div className="s">
           <header className="text-[35px] font-bold underline underline-offset-8 decoration-violet-600 decoration-4">

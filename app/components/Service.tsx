@@ -49,7 +49,7 @@ export default function Service() {
         <header className="text-center text-[45px] font-[700]">
           Our Service
         </header>
-        <div className="grid grid-cols-3 gap-10 mx-32 text-center ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mx-10 md:mx-32 text-center ">
           {services.map((service, index) => (
             <div key={index} className="z-50">
               <div className="relative z-40 flex items-center border-2 border-gray-200 rounded-lg w-full py-12 px-5 text-center flex-col peer group h-[400px]">

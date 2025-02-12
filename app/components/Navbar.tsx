@@ -1,17 +1,17 @@
 import Link from "next/link";
 import Image from "next/image";
 import logo from "@/public/logo.png";
-import menu from "@/public/burger.svg";
+// import menu from "@/public/burger.svg";
 export default function Navbar() {
   return (
     <>
-      <div className="flex justify-between px-4 md:hidden my-2 border-b border-blue-100">
+      <div className="flex justify-center px-4 md:hidden my-2 border-b border-blue-100">
         <div className="w-32">
           <Image src={logo} alt="logo" />
         </div>
-        <div className="w-8">
+        {/* <div className="w-8">
           <Image src={menu} alt="menu" />
-        </div>
+        </div> */}
       </div>
       <div className="hidden md:flex justify-between px-24 py-2">
         <div className="s">
