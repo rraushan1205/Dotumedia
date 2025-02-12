@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import Service from "./components/Service";
 import AboutUs from "./components/AboutUs";
+import CTA from "./components/CTA";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -11,7 +13,8 @@ export default function Home() {
       <HeroSection />
       <Service />
       <AboutUs />
-      <p>hello</p>
+      <CTA />
+      <Footer />
     </>
   );
 }
