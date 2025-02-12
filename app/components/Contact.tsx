@@ -30,7 +30,7 @@ export default function Contact() {
             placeholder="Phone Number"
           />
           <textarea
-            className="py-1 outline-none focus:border-red-500 bg-gray-100 rounded-xl px-2 h-[150px] md:h-[500px] w-[270px] md:w-[350px] mx-[30px] md:mx-[50px] my-[10px] md:my-[20px]  border border-gray-100 resize-none "
+            className="py-1 outline-none focus:border-red-500 bg-gray-100 rounded-xl px-2 h-[100px] w-[270px] md:w-[350px] mx-[30px] md:mx-[50px] my-[10px] md:my-[20px]  border border-gray-100 resize-none "
             placeholder="Your message..."
           />
           <button
