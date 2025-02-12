@@ -55,7 +55,7 @@ export default function Service() {
               <div className="relative z-40 flex items-center border-2 border-gray-200 rounded-lg w-full py-12 px-5 text-center flex-col peer group h-[400px]">
                 <Image
                   src={service.image}
-                  className="w-[220px] group-hover:w-[100px] h-fit"
+                  className="w-[220px] group-hover:w-[100px] h-fit transition-all duration-[1000ms]"
                   alt="web"
                 />
                 <header className="text-blue-500 text-[22px] font-bold">
