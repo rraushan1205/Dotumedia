@@ -61,8 +61,8 @@ export default function Service() {
                 <header className="text-blue-500 text-[22px] font-bold">
                   {service.head}
                 </header>
-                <span className="absolute z-10 bottom-0 bg-gray-600 h-0 text-[0px] group-hover:text-[18px] group-hover:h-[200px] opacity-50 group-hover:opacity-100 transition-all duration-[1000ms]">
-                  <p className=" text-gray-400 my-1">{service.body}</p>
+                <span className="absolute z-10 bottom-0 bg-gray-500 h-0 text-[0px] group-hover:text-[18px] group-hover:h-[200px] opacity-50 group-hover:opacity-100 transition-all duration-[1000ms]">
+                  <p className=" text-gray-400 my-1 mx-2">{service.body}</p>
                 </span>
               </div>
             </div>
